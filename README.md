@@ -7,9 +7,12 @@ We aim to make a project that converts all the Python learning steps on the http
 
 ## Our Goal:
 Using this code, we click on each step on this site and download all the steps in each step in order.
+
 ![image](https://github.com/furkancankay/PythonRoadmapWebScrapper/assets/139324087/fba8ff94-3b37-42a6-8888-7493bd27d82a)
 
 
 ## ⚠️ Warning
 
-Cloning this repo makes you better developer. Be careful! Especially when naming the files you download as pdf :)
+Cloning this repo makes you better developer. Be careful! Especially when naming the files you download as pdf :)   (If you wonder read below.)
+
+Because the names of the pdfs we download are obtained from the subject headings. If there are symbols such as reverse side lines in the subject title, our string expression misunderstands this and we get an error. We overcame this problem by checking this.
