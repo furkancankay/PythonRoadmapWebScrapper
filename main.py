@@ -6,7 +6,7 @@ import pdfkit
 
 
 class Scraper:
-    """.asdfksjfas"""
+    """This is a docstring example"""
     BASE_URL = "https://roadmap.sh/python"
     LIST_CLICK = (By.CSS_SELECTOR, ".clickable-group")
     PHONE_CLICK = (By.XPATH, '//*[starts-with(@id,"datevUI_form_Select")]/div[2]/span[contains(text(), "In Buchungs-ABC")]')
